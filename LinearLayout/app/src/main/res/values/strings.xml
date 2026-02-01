@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UserInterface</string>
+    <string name="tap_me">Click Me!</string>
+    <string name="header_message">This is a text view</string>
+    <string name="edit_text_hint">Type something here…</string>
+    <string name="radio_option_1">Option 1</string>
+    <string name="radio_option_2">Option 2</string>
+    <string name="switch_text">Enable Feature</string>
+    <string name="toggle_on">ON</string>
+    <string name="toggle_off">OFF</string>
+    <string name="spinner_text">Select a fruit:</string>
+    <string name="suggestion_text">Type a suggestion (e.g. \'A\'):</string>
+    <string name="search_text">Search…</string>
+
+    <string-array name="fruits_array">
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>Cherry</item>
+        <item>Date</item>
+        <item>Elderberry</item>
+    </string-array>
+
+    <string-array name="suggestions_array">
+        <item>Android</item>
+        <item>Arduino</item>
+        <item>Angular</item>
+        <item>Apple</item>
+        <item>Amazon</item>
+    </string-array>
+</resources>

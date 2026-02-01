@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Student Grade Calculator</string>
+    <string name="table_header1">Subject</string>
+    <string name="table_header2">Marks</string>
+    <string name="subject1">Math</string>
+    <string name="marks_hint">Enter marks</string>
+    <string name="subject2">Science</string>
+    <string name="subject3">English</string>"
+    <string name="resultLabel1">Total Marks</string>
+    <string name="resultLabel2">Average</string>
+    <string name="gradeLabel">Calculate Grade</string>
+
+</resources>

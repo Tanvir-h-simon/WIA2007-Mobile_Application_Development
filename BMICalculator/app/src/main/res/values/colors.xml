@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorBackground">#F5F5F5</color>
+    <color name="colorUnderweight">#3498DB</color> <!-- Blue -->
+    <color name="colorHealthy">#2ECC71</color>      <!-- Green -->
+    <color name="colorOverweight">#F1C40F</color>   <!-- Yellow -->
+    <color name="colorObese">#E74C3C</color>        <!-- Red -->
+</resources>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:stretchColumns="*">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/subjectLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/table_header1"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/marksLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/table_header2"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/subject1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subject1"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/marks1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textSize="16sp"
+            android:hint="@string/marks_hint"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/subject2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subject2"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/marks2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textSize="16sp"
+            android:hint="@string/marks_hint"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/subject3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subject3"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/marks3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textSize="16sp"
+            android:hint="@string/marks_hint"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/totalMarks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resultLabel1"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/totalMarksValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/average"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resultLabel2"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/averageValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/calcGrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gradeLabel"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:padding="8dp"
+        android:gravity="center" />
+
+</TableLayout>

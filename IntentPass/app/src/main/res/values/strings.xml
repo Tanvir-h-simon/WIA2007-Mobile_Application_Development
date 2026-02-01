@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Intent Pass</string>
+    <string name="hello">Hello, Welcome to Student Records!</string>
+    <string name="header">Student Records App</string>
+    <string name="next">Next</string>
+    <string name="title2">Student Details</string>
+    <string name="name_label">Name: </string>
+    <string name="id_label">ID: </string>
+    <string name="dept_label">Department: </string>
+    <string name="sem_label">Semester: </string>
+    <string name="back">Back</string>
+</resources>
